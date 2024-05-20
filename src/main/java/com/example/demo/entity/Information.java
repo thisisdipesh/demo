@@ -1,0 +1,31 @@
+package com.example.demo.entity;
+
+import jakarta.persistence.*;
+
+@Entity
+@Table(name="Information")
+public class Information {
+@                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ
+    Query
+    private Integer id;
+
+    @Column (name="Book time")
+    private Integer Book time;
+
+}
+@Entity
+@Table (name = "Book")
+class Book {
+    @Id
+    private Integer Id;
+
+
+    @Column(name="BookDate",length=256)
+    private String BookDate;
+
+    @Column(name="Bookitem",length=256)
+    private String Bookitem;
+
+
+
+}
